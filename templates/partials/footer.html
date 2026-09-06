@@ -3,10 +3,17 @@
   <div class="container footer-grid">
     <div>
       <p class="footer-brand">Phillip Krüger</p>
-      <!-- BUILDER: address, phone, email, hours from the original site -->
+      <p class="muted">Everything in its right place.</p>
+      {#include partials/social /}
     </div>
     <div>
-      <!-- BUILDER: footer navigation -->
+      <ul class="footer-nav">
+        <li><a href="{=site.url}">Home</a></li>
+        <li><a href="{=site.url('blog')}">Blog</a></li>
+        <li><a href="{=site.url('about')}">About Me</a></li>
+        <li><a href="{=site.url('cv')}">CV</a></li>
+        <li><a href="https://github.com/phillip-kruger">Software</a></li>
+      </ul>
     </div>
   </div>
   <div class="container footer-bottom">

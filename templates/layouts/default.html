@@ -1,19 +1,23 @@
 {@io.quarkiverse.roq.frontmatter.runtime.model.Page page}
 {@io.quarkiverse.roq.frontmatter.runtime.model.Site site}
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-AU">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="light dark">
   {#seo page site /}
-  <link rel="icon" href="{=site.url('favicon.svg')}" type="image/svg+xml">
+  <link rel="icon" href="{=site.url('favicon.png')}" type="image/png">
+  <link rel="alternate" type="application/rss+xml" title="Phillip Krüger" href="{=site.url('feed.xml')}">
   <script>{|
     try {
       var t = localStorage.getItem('site-theme');
       if (t === 'light' || t === 'dark') document.documentElement.setAttribute('data-theme', t);
     } catch (e) { /* private mode: follow the OS preference */ }
   |}</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400&family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&family=Rock+Salt&display=swap">
   <link rel="stylesheet" href="{=site.url('css/main.css')}">
   {#insert head /}
 </head>

@@ -2,15 +2,18 @@
 <header class="site-header">
   <div class="container bar">
     <a class="brand" href="{=site.url}">
-      <!-- BUILDER: replace with the logo image (public/images/logo.*) or a wordmark -->
+      <img src="{=site.url('images/avatar.png')}" alt="" width="44" height="44">
       <span class="brand-name">Phillip Krüger</span>
     </a>
     <input type="checkbox" id="nav-toggle" class="nav-toggle-input" aria-label="Toggle menu">
     <label for="nav-toggle" class="nav-toggle"><span></span></label>
     <nav class="site-nav" aria-label="Main navigation">
       <ul>
-        <!-- BUILDER: one <li> per page, mirroring the original site's navigation -->
         <li><a href="{=site.url}">Home</a></li>
+        <li><a href="{=site.url('blog')}">Blog</a></li>
+        <li><a href="{=site.url('about')}">About Me</a></li>
+        <li><a href="{=site.url('cv')}">CV</a></li>
+        <li><a href="https://github.com/phillip-kruger" rel="me">Software</a></li>
       </ul>
     </nav>
   </div>

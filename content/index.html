@@ -1,14 +1,36 @@
 ---
-title: "Home"
-description: "BUILDER: one-sentence description of the business for search engines."
+title: "Phillip Krüger"
+description: "Phillip Krüger is a software engineer in Victoria, Australia, working at Red Hat on MicroProfile, SmallRye and Quarkus. Blog posts on Java, GraphQL, OpenAPI and open source."
 layout: default
 ---
-<!-- BUILDER: hero, then the sections that mirror the original home page. -->
+{@io.quarkiverse.roq.frontmatter.runtime.model.Page page}
+{@io.quarkiverse.roq.frontmatter.runtime.model.Site site}
 <section class="hero">
+  <div class="container hero-grid">
+    <img class="hero-photo" src="{=site.url('images/avatar.png')}" alt="Phillip Krüger" width="320" height="320">
+    <div>
+      <h1>Phillip Krüger</h1>
+      <p class="tagline">Everything in its right place</p>
+      <p class="lead">Hey, I'm Phillip. I'm a software engineer living in Victoria, Australia. I work for Red Hat, where I spend most of my time on MicroProfile, SmallRye and Quarkus. I write here about Java, open source and the conferences I go to.</p>
+      <p class="hero-actions">
+        <a class="btn btn-primary" href="{=site.url('about')}">About me</a>
+        <a class="btn btn-outline" href="{=site.url('cv')}">Read my CV</a>
+      </p>
+      {#include partials/social /}
+    </div>
+  </div>
+</section>
+<section class="section">
   <div class="container">
-    <p class="eyebrow">Welcome</p>
-    <h1>Phillip Krüger</h1>
-    <p class="lead">Replace this with the business's own words.</p>
-    <p class="hero-actions"><a class="btn btn-primary" href="{=site.url('contact')}">Contact us</a></p>
+    <h2>Latest posts</h2>
+    <p class="lead">Notes on MicroProfile, Quarkus, GraphQL, OpenAPI and whatever else I am working on.</p>
+    <ul class="post-list">
+      {#for post in site.collections.posts}
+      {#if post_index < 6}
+      {#include partials/post-card post=post /}
+      {/if}
+      {/for}
+    </ul>
+    <p style="margin-top:1.5rem"><a class="btn btn-outline" href="{=site.url('blog')}">All posts</a></p>
   </div>
 </section>

@@ -1,0 +1,23 @@
+---
+---
+{@io.quarkiverse.roq.frontmatter.runtime.model.Page page}
+{@io.quarkiverse.roq.frontmatter.runtime.model.Site site}
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Phillip Krüger</title>
+    <link>{=site.url.absolute}</link>
+    <atom:link href="{=site.url('feed.xml').absolute}" rel="self" type="application/rss+xml"/>
+    <description>Everything in its right place. Blog posts by Phillip Krüger on Java, MicroProfile, Quarkus, GraphQL and open source.</description>
+    <language>en-au</language>
+    {#for post in site.collections.posts}
+    <item>
+      <title>{=post.title}</title>
+      <link>{=post.url.absolute}</link>
+      <guid isPermaLink="true">{=post.url.absolute}</guid>
+      <pubDate>{=post.date.format('EEE, dd MMM yyyy HH:mm:ss Z')}</pubDate>
+      <description>{=post.description}.</description>
+    </item>
+    {/for}
+  </channel>
+</rss>

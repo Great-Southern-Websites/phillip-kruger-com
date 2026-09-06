@@ -4,15 +4,28 @@ layout: default
 {@io.quarkiverse.roq.frontmatter.runtime.model.DocumentPage page}
 {@io.quarkiverse.roq.frontmatter.runtime.model.Site site}
 <section class="page-banner">
-  <div class="container">
-    <p class="eyebrow">News</p>
+  <div class="container prose">
+    <p class="eyebrow">Blog</p>
     <h1>{=page.title}</h1>
+    <p class="post-meta">
+      <time datetime="{=page.date.isoDate}">{=page.date.format('d MMMM yyyy')}</time>
+      {#if page.data.tags??}
+      <span class="tags">{#for t in page.data.tags}<span class="tag">{=t}</span>{/for}</span>
+      {/if}
+    </p>
   </div>
 </section>
-<article class="section">
+<article class="section post">
   <div class="container prose">
-    <p class="muted"><time datetime="{=page.date.isoDate}">{=page.date.format('d MMMM yyyy')}</time></p>
+    {#if page.image}
+    <img class="post-hero" src="{=page.image}" alt="" loading="eager">
+    {/if}
     {#insert /}
-    <p><a href="{=site.url('posts')}">&larr; All news</a></p>
+    <hr>
+    <nav class="post-nav" aria-label="More posts">
+      {#if page.next}<a class="post-nav-link" href="{=page.next.url}"><span class="muted">Newer</span><br>{=page.next.title}</a>{/if}
+      {#if page.previous}<a class="post-nav-link align-right" href="{=page.previous.url}"><span class="muted">Older</span><br>{=page.previous.title}</a>{/if}
+    </nav>
+    <p><a href="{=site.url('blog')}">&larr; All posts</a></p>
   </div>
 </article>

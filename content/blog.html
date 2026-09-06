@@ -1,0 +1,81 @@
+---
+title: "Blog"
+description: "All blog posts by Phillip Krüger, by date and tag: MicroProfile, Quarkus, GraphQL, OpenAPI, Java EE, Linux and conference notes."
+layout: default
+---
+{@io.quarkiverse.roq.frontmatter.runtime.model.Page page}
+{@io.quarkiverse.roq.frontmatter.runtime.model.Site site}
+<section class="page-banner">
+  <div class="container">
+    <p class="eyebrow">Blog</p>
+    <h1>All posts</h1>
+    <p class="lead">Every post on this site, newest first. Pick a tag to narrow the list.</p>
+  </div>
+</section>
+<section class="section">
+  <div class="container prose">
+    <div id="tag-filter" hidden>
+      <h2 style="margin-top:0">Tags</h2>
+      <ul class="tag-filter" id="tag-buttons"></ul>
+    </div>
+    <p class="muted" id="filter-status"></p>
+    {#include partials/archive-year year='2020' /}
+    {#include partials/archive-year year='2019' /}
+    {#include partials/archive-year year='2018' /}
+    {#include partials/archive-year year='2017' /}
+    {#include partials/archive-year year='2016' /}
+    {#include partials/archive-year year='2015' /}
+    <p style="margin-top:2rem"><a href="{=site.url('feed.xml')}">Subscribe with RSS</a></p>
+  </div>
+</section>
+<script>{|
+  (function () {
+    var items = Array.prototype.slice.call(document.querySelectorAll('.archive li[data-tags]'));
+    if (!items.length) return;
+    var counts = {};
+    items.forEach(function (li) {
+      li.getAttribute('data-tags').split('|').forEach(function (t) {
+        if (!t) return;
+        counts[t] = (counts[t] || 0) + 1;
+      });
+    });
+    var names = Object.keys(counts).filter(function (t) { return counts[t] > 1; }).sort(function (a, b) { return counts[b] - counts[a] || a.localeCompare(b); });
+    var box = document.getElementById('tag-filter');
+    var list = document.getElementById('tag-buttons');
+    var status = document.getElementById('filter-status');
+    var current = null;
+    function apply() {
+      var shown = 0;
+      items.forEach(function (li) {
+        var tags = li.getAttribute('data-tags').split('|');
+        var show = !current || tags.indexOf(current) !== -1;
+        li.hidden = !show;
+        if (show) shown++;
+      });
+      document.querySelectorAll('.archive-year').forEach(function (h) {
+        var ul = h.nextElementSibling;
+        var any = ul && ul.querySelector('li:not([hidden])');
+        h.hidden = !any; if (ul) ul.hidden = !any;
+      });
+      list.querySelectorAll('button').forEach(function (b) {
+        b.setAttribute('aria-pressed', b.getAttribute('data-tag') === (current || '') ? 'true' : 'false');
+      });
+      status.textContent = current ? shown + ' posts tagged ' + current : '';
+    }
+    function add(name, label) {
+      var li = document.createElement('li');
+      var b = document.createElement('button');
+      b.type = 'button';
+      b.setAttribute('data-tag', name);
+      b.setAttribute('aria-pressed', 'false');
+      b.textContent = label;
+      b.addEventListener('click', function () { current = name || null; apply(); });
+      li.appendChild(b);
+      list.appendChild(li);
+    }
+    add('', 'All posts');
+    names.forEach(function (n) { add(n, n + ' (' + counts[n] + ')'); });
+    box.hidden = false;
+    apply();
+  })();
+|}</script>

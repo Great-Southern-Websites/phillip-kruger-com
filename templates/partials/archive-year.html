@@ -1,0 +1,15 @@
+{@io.quarkiverse.roq.frontmatter.runtime.model.Site site}
+{@java.lang.String year}
+<h2 class="archive-year" id="y{=year}">{=year}</h2>
+<ul class="archive">
+  {#for post in site.collections.posts}
+  {#if post.date.format('yyyy') == year}
+  <li data-tags="{#if post.data.tags??}{#for t in post.data.tags}{=t}{#if t_hasNext}|{/if}{/for}{/if}">
+    <time datetime="{=post.date.isoDate}">{=post.date.format('d MMM yyyy')}</time>
+    <a class="post-link" href="{=post.url}">{=post.title}</a>
+    <p class="excerpt">{=post.description}.</p>
+    {#if post.data.tags??}<span class="tags">{#for t in post.data.tags}<span class="tag">{=t}</span>{/for}</span>{/if}
+  </li>
+  {/if}
+  {/for}
+</ul>

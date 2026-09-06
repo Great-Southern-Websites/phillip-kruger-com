@@ -1,0 +1,12 @@
+{@io.quarkiverse.roq.frontmatter.runtime.model.DocumentPage post}
+{@io.quarkiverse.roq.frontmatter.runtime.model.Site site}
+<li class="post-card">
+  {#if post.data.thumb??}<img class="thumb" src="{=site.url('images/' + post.data.thumb)}" alt="" width="56" height="56" loading="lazy">{#else}<span></span>{/if}
+  <p class="post-meta"><time datetime="{=post.date.isoDate}">{=post.date.format('d MMMM yyyy')}</time></p>
+  <h3><a href="{=post.url}">{=post.title}</a></h3>
+  <div class="body">
+    <p>{=post.description}.</p>
+    {#if post.data.tags??}<p class="tags">{#for t in post.data.tags}<span class="tag">{=t}</span>{/for}</p>{/if}
+    <a class="more" href="{=post.url}">Read more<span class="sr-only"> about {=post.title}</span></a>
+  </div>
+</li>
