@@ -1,6 +1,6 @@
 ---
 title: "About me"
-description: "Phillip Krüger: software engineer at Red Hat living in Victoria, Australia. Java, MicroProfile, SmallRye, Quarkus, Linux and open source. Skills, talks, articles and conferences."
+description: "Phillip Krüger: software engineer at Red Hat living in Victoria, Australia. Quarkus Dev UI, Chappie, Dev MCP and Agent MCP, plus MicroProfile, SmallRye, Java, Linux and open source. Skills, talks, articles and conferences."
 layout: page
 eyebrow: "About"
 ---
@@ -8,7 +8,7 @@ eyebrow: "About"
 
 Hey, I'm Phillip. I'm a Software Engineer living in [Victoria, Australia](https://en.wikipedia.org/wiki/Victoria_(Australia)).
 
-I work for [Red Hat](https://www.redhat.com), where I spend most of my time on [MicroProfile](https://microprofile.io/), [SmallRye](https://smallrye.io/) and [Quarkus](https://quarkus.io/).
+I work for [Red Hat](https://www.redhat.com) on the [Quarkus](https://quarkus.io/) team, where I spend most of my time on developer tooling: the [Dev UI](https://quarkus.io/guides/dev-ui), [Chappie](https://github.com/quarkiverse/quarkus-chappie), [Dev MCP](https://quarkus.io/guides/dev-mcp) and the [Quarkus Agent MCP](https://github.com/quarkusio/quarkus-agent-mcp). I also work on [MicroProfile](https://microprofile.io/) and [SmallRye](https://smallrye.io/).
 
 I am a fan of technology, coffee and programming. I love dogs and [music](https://www.last.fm/user/phillipkruger). To keep active I play [squash](https://en.wikipedia.org/wiki/Squash_(sport)). I was lucky enough to marry my best friend, [Charmaine](https://www.charmaine-kruger.com). She is also a geek.
 
@@ -34,6 +34,26 @@ I am an accomplished software **developer** and **architect** with experience in
 
 ## Experience
 
+### Quarkus developer tooling
+
+At Red Hat I am part of the Quarkus team. I work on the tools you use while a Quarkus application runs in dev mode. They started as tools for developers and now also serve AI coding agents.
+
+#### Dev UI
+
+The [Dev UI](https://quarkus.io/guides/dev-ui) is the web console for a Quarkus application in dev mode. It shows the extensions, configuration and runtime data of the running application and lets you act on it without a restart. Extensions add their own pages using web components and talk to the running application over JSON-RPC. I lead the development of the Dev UI.
+
+#### Chappie
+
+[Chappie](https://github.com/quarkiverse/quarkus-chappie) is the Quarkus Assistant. It adds AI to dev mode through the Dev UI and the CLI: help when an exception occurs, generated tests and JavaDoc, and explanations of your code. It works with OpenAI compatible services or a local Ollama, and it loads the Quarkus documentation for the version you are running so the answers have context. I started the [Chappie working group](https://github.com/quarkusio/quarkus/discussions/45377) in January 2025.
+
+#### Dev MCP
+
+[Dev MCP](https://quarkus.io/guides/dev-mcp) is a Model Context Protocol server that runs inside a Quarkus application in dev mode. The Dev UI and MCP both use JSON-RPC, so the same tools and data the Dev UI shows can be offered to an AI agent as MCP tools and resources. Extension authors mark the methods they want to expose, and the agent can then inspect the running application or change things like log levels.
+
+#### Quarkus Agent MCP
+
+The [Quarkus Agent MCP](https://github.com/quarkusio/quarkus-agent-mcp) is a standalone MCP server for AI coding agents such as Claude Code, GitHub Copilot, Cursor and JetBrains AI. It runs as a separate process, so it keeps working when the application crashes. An agent can use it to create a project, start, stop and restart the application, read the logs, search the Quarkus documentation, learn extension patterns from skills, and reach the Dev MCP tools of the running application. I [introduced it in May 2026](https://quarkus.io/blog/introducing-agent-mcp/) as part of the [DevStar working group](https://github.com/quarkusio/quarkus/discussions/53093) on the Quarkus developer experience for AI coding agents.
+
 ### Java, Java EE and MicroProfile
 
 I have been writing [Java](https://en.wikipedia.org/wiki/Java_(programming_language)) since the beginning of Java and still love it. I stay up to date with the language and [specifications](https://en.wikipedia.org/wiki/Java_Community_Process). I have extensive experience in [Enterprise Java](https://en.wikipedia.org/wiki/Java_Platform,_Enterprise_Edition), including [JAX-RS](https://en.wikipedia.org/wiki/Java_API_for_RESTful_Web_Services), [JAX-WS](https://en.wikipedia.org/wiki/Java_API_for_XML_Web_Services), [CDI](https://www.jcp.org/en/jsr/detail?id=299), [JAXB](https://en.wikipedia.org/wiki/Java_Architecture_for_XML_Binding), [JAXP](https://en.wikipedia.org/wiki/Java_API_for_XML_Processing), [XML](https://en.wikipedia.org/wiki/XML), [JSON-P](https://www.jcp.org/en/jsr/detail?id=353), [JSON](https://en.wikipedia.org/wiki/JSON), [JPA](https://en.wikipedia.org/wiki/Java_Persistence_API), [JDBC](https://en.wikipedia.org/wiki/Java_Database_Connectivity), [EJB](https://en.wikipedia.org/wiki/Enterprise_JavaBeans), [JTA](https://en.wikipedia.org/wiki/Java_Transaction_API), [JCA](https://en.wikipedia.org/wiki/Java_EE_Connector_Architecture), [JMS](https://en.wikipedia.org/wiki/Java_Message_Service), [JSF](https://en.wikipedia.org/wiki/JavaServer_Faces), [JSP](https://en.wikipedia.org/wiki/JavaServer_Pages), [Servlets](https://en.wikipedia.org/wiki/Java_servlet), [WebSockets](https://en.wikipedia.org/wiki/WebSocket), [Bean Validation](https://en.wikipedia.org/wiki/Bean_Validation), [Portlets](https://en.wikipedia.org/wiki/Java_Portlet_Specification), [Spring](https://en.wikipedia.org/wiki/Spring_Framework), [Swagger](https://en.wikipedia.org/wiki/OpenAPI_Specification), [Lombok](https://projectlombok.org/), [GraphQL](http://graphql.org/) and much more.
@@ -42,7 +62,7 @@ When appropriate, I use Eclipse [MicroProfile](https://microprofile.io/) APIs to
 
 #### Open source
 
-I currently contribute to [Eclipse MicroProfile](https://microprofile.io/) and [SmallRye](https://smallrye.io/), where I mostly work on [MicroProfile GraphQL](https://github.com/eclipse/microprofile-graphql) and [MicroProfile Extensions](https://www.microprofile-ext.org/).
+Everything I do at Red Hat is open source and my work is visible on [GitHub](https://github.com/phillip-kruger). Besides the Quarkus tooling above, I contribute to [Eclipse MicroProfile](https://microprofile.io/) and [SmallRye](https://smallrye.io/), where I mostly work on [MicroProfile GraphQL](https://github.com/eclipse/microprofile-graphql) and [MicroProfile Extensions](https://www.microprofile-ext.org/).
 
 I previously also contributed to [JSR 371](https://jcp.org/en/jsr/detail?id=371), the [Model-View-Controller Specification](https://www.mvc-spec.org/), and [Ozark](https://github.com/mvc-spec/ozark), the reference implementation.
 
@@ -56,6 +76,8 @@ I enjoy talking and debating about technical concerns. I blog about technical to
 
 #### Talks
 
+- 1 June 2026: [Using Coding Agents with Quarkus](https://quarkus.io/blog/quarkus-insights-249-coding-agents/) at [Quarkus Insights](https://www.youtube.com/channel/UCaW8QG_QoIk_FnjLgr5eOqg), online ([video](https://youtube.com/live/EczihvU1gG8)).
+- 21 July 2025: [What's new with Chappie and the Quarkus Assistant](https://www.youtube.com/watch?v=-5qhac1adUo) at [Quarkus Insights](https://www.youtube.com/channel/UCaW8QG_QoIk_FnjLgr5eOqg), online.
 - 22 June 2022: [Intro to Quarkus](https://www.meetup.com/melbourne-java-jvm-users-group/events/286328938/) at the [Melbourne Java and JVM Users Group](https://www.meetup.com/melbourne-java-jvm-users-group/) in Melbourne, Australia.
 - 7 June 2022: [Writing Queryable APIs with GraphQL](https://jnation.pt/quarkus-day/) at [JNation 2022](https://jnation.pt/) in Portugal.
 - 25 October 2021: [Micro frontends using WebComponents and MicroProfile GraphQL](https://www.eclipsecon.org/2021/sessions/micro-frontends-using-webcomponents-and-microprofile-graphql) at [EclipseCon 2021](https://www.eclipsecon.org/2021) ([video](https://youtu.be/3qTJuqsqzq8)).
@@ -81,6 +103,7 @@ I enjoy talking and debating about technical concerns. I blog about technical to
 
 Some of my posts were also published on [Quarkus.io](https://quarkus.io/blog/), [Java Code Geeks](https://www.javacodegeeks.com/) and [DZone](https://dzone.com/).
 
+- [Introducing Quarkus Agent MCP: teaching AI agents to speak Quarkus](https://quarkus.io/blog/introducing-agent-mcp/)
 - [Stylish API](https://quarkus.io/blog/stylish-api/)
 - [Experimental GraphQL](https://quarkus.io/blog/experimental_graphql/)
 - [MicroProfile OpenAPI for everyone](https://quarkus.io/blog/openapi-for-everyone/)
