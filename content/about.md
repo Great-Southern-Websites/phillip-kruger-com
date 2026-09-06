@@ -77,7 +77,19 @@ I enjoy talking and debating about technical concerns. I blog about technical to
 #### Talks
 
 - 1 June 2026: [Using Coding Agents with Quarkus](https://quarkus.io/blog/quarkus-insights-249-coding-agents/) at [Quarkus Insights](https://www.youtube.com/channel/UCaW8QG_QoIk_FnjLgr5eOqg), online ([video](https://youtube.com/live/EczihvU1gG8)).
+- February 2026: [Quarkus AI and Chappie](https://www.meetup.com/jozi-jug/events/312880317/) at [JoziJUG](https://www.meetup.com/jozi-jug/).
+- December 2025: [Quarkus AI and Chappie](https://www.meetup.com/brisjvm/events/312295246/) at [BrisJVM](https://www.meetup.com/brisjvm/) in Brisbane, Australia.
+- December 2025: [Quarkus AI](https://yowcon.com/melbourne-2025) at YOW! Melbourne in Melbourne, Australia.
+- November 2025: [Quarkus AI](https://www.ibm.com/events/reg/flow/ibm/9WI83JMB/landing/page/landing) at IBM TechX Auckland in Auckland, New Zealand.
+- November 2025: [Quarkus AI](https://churconf.com/) at ChurConf.
+- October 2025: [Quarkus AI](https://www.ibm.com/events/reg/flow/ibm/5Z6GDGMB/landing/page/landing) at IBM TechX Sydney in Sydney, Australia.
+- October 2025: [GraphQL in Quarkus](https://www.apidays.global/archive/2025/australia) at API Days Melbourne in Melbourne, Australia.
 - 21 July 2025: [What's new with Chappie and the Quarkus Assistant](https://www.youtube.com/watch?v=-5qhac1adUo) at [Quarkus Insights](https://www.youtube.com/channel/UCaW8QG_QoIk_FnjLgr5eOqg), online.
+- December 2024: [GraphQL in Quarkus](https://jakartaone.org/2024/) at JakartaOne Live.
+- November 2024: [AI in Quarkus (Chappie)](https://www.meetup.com/melbourne-openshift-meetup/events/303343989/) at the [Melbourne OpenShift Meetup](https://www.meetup.com/melbourne-openshift-meetup/) in Melbourne, Australia.
+- November 2024: [Web development in Quarkus](https://www.meetup.com/melbourne-java-jvm-users-group/events/304285862/) at the [Melbourne Java and JVM Users Group](https://www.meetup.com/melbourne-java-jvm-users-group/) in Melbourne, Australia.
+- May 2024: [Web development in Quarkus](https://makeit.si/jcon/) at JCon Slovenia.
+- March 2023: [Intro to Quarkus](https://www.meetup.com/the-brisbane-java-meetup-group-w-paxus/) at the Brisbane Java Meetup Group in Brisbane, Australia.
 - 22 June 2022: [Intro to Quarkus](https://www.meetup.com/melbourne-java-jvm-users-group/events/286328938/) at the [Melbourne Java and JVM Users Group](https://www.meetup.com/melbourne-java-jvm-users-group/) in Melbourne, Australia.
 - 7 June 2022: [Writing Queryable APIs with GraphQL](https://jnation.pt/quarkus-day/) at [JNation 2022](https://jnation.pt/) in Portugal.
 - 25 October 2021: [Micro frontends using WebComponents and MicroProfile GraphQL](https://www.eclipsecon.org/2021/sessions/micro-frontends-using-webcomponents-and-microprofile-graphql) at [EclipseCon 2021](https://www.eclipsecon.org/2021) ([video](https://youtu.be/3qTJuqsqzq8)).
