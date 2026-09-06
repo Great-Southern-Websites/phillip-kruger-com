@@ -28,7 +28,9 @@ I am an accomplished software **developer** and **architect** with experience in
 
 <a href="https://www.acs.org.au"><img src="{=site.url('images/acs-certified-professional.png')}" alt="ACS Certified Professional" width="120" height="120" class="inline"></a>
 
+{! CV link hidden until the CV is updated. Remove the comment markers to show it again.
 <a class="btn btn-primary" href="{=site.url('cv')}">See my full CV</a>
+!}
 
 ## Experience
 
@@ -130,6 +132,6 @@ I have knowledge of many other languages, frameworks and libraries. I believe in
 
 ## Get in touch
 
-The quickest way to reach me is email. You can also find me on GitHub, Twitter and LinkedIn.
+The quickest way to reach me is email. You can also find me on GitHub and LinkedIn.
 
 <a class="btn btn-primary" href="mailto:phillip.kruger@phillip-kruger.com">Email me</a>
