@@ -1,6 +1,7 @@
 ---
 title: "When using JAXB"
 slug: when-using-jaxb
+aliases: ["/post/when_using_jaxb/"]
 description: "Not many examples show this, but how you use JAXB in your application can make a huge difference in the performance (and memory usage)"
 thumb: site/jaxb_jaxb.jpg
 date: 2019-04-25

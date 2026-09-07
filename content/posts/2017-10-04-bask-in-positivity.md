@@ -1,6 +1,7 @@
 ---
 title: "Bask in positivity"
 slug: bask-in-positivity
+aliases: ["/post/bask_in_positivity/"]
 description: "Java EE: Heavyweight or Lightweight, Mythbusters"
 thumb: site/javaone_logo.jpg
 date: 2017-10-04

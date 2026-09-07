@@ -1,6 +1,7 @@
 ---
 title: "Your own MicroProfile Config source"
 slug: microprofile-config
+aliases: ["/post/microprofile_config/"]
 description: "MicroProfile Config, which is part of the MicroProfile Specification, is the standardization for Java Enterprise and Microservices configuration"
 thumb: site/microprofile.jpg
 date: 2018-08-08

@@ -1,6 +1,7 @@
 ---
 title: "Open by design"
 slug: open-by-design
+aliases: ["/post/open_by_design/"]
 description: "Day 1 of IBM Interconnect 2016 kicked off with a bang. Back to back sessions from the Research Lab Team and ending with the Open Tech Summit"
 thumb: site/ibmconnect_logo.png
 date: 2016-02-22

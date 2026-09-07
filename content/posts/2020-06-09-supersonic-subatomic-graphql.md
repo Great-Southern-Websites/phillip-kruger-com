@@ -1,6 +1,7 @@
 ---
 title: "Supersonic Subatomic GraphQL"
 slug: supersonic-subatomic-graphql
+aliases: ["/post/supersonic_subatomic_graphql/"]
 description: "MicroProfile GraphQL is now included in the just released version 1.5.0 of Quarkus"
 thumb: site/quarkus.png
 date: 2020-06-09

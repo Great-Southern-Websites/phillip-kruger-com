@@ -1,6 +1,7 @@
 ---
 title: "Accidental data"
 slug: accidental-data
+aliases: ["/post/accidental_data/"]
 description: "Cultures, Practices and Tools that Support a DevOps Approach: An Open Conversation This panel discussion made up of some industry experts shared some insights into creating a DevOps work environment"
 thumb: site/ibmconnect_logo.png
 date: 2016-02-24

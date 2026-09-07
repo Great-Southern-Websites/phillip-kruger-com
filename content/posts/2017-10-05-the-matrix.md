@@ -1,6 +1,7 @@
 ---
 title: "The Matrix"
 slug: the-matrix
+aliases: ["/post/the_matrix/"]
 description: "Java Community Keynote The last day of the conference started, as usual, with the Java Community Keynote. Some of the highlights:"
 thumb: site/javaone_logo.jpg
 date: 2017-10-05

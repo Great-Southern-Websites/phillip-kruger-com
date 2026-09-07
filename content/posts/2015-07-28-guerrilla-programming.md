@@ -1,6 +1,7 @@
 ---
 title: "Guerrilla programming"
 slug: guerrilla-programming
+aliases: ["/post/guerrilla_programming/"]
 description: "It’s been one year since I have re-joined the corporate IT industry, where I started my IT career. When you come back to a big corporate after 7 years in a small start-up, you look differently at a lot of things, and you see things that you did not notice"
 thumb: site/guerrilla_programming_logo.png
 date: 2015-07-28

@@ -1,6 +1,7 @@
 ---
 title: "More than 9 million developers"
 slug: more-than-9-million-developers
+aliases: ["/post/more_than_9_million_developers/"]
 description: "9 sessions and one party. The first day of the conference was absolutely great !"
 thumb: site/javaone_logo.jpg
 date: 2015-10-26

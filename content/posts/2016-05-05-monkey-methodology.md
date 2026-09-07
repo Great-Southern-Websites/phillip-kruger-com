@@ -1,6 +1,7 @@
 ---
 title: "Monkey methodology"
 slug: monkey-methodology
+aliases: ["/post/monkey_methodology/"]
 description: "The PM becomes a scrum master"
 thumb: site/agile_logo.png
 date: 2016-05-05

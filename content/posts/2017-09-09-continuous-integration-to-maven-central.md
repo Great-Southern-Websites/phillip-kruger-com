@@ -1,6 +1,7 @@
 ---
 title: "Continuous Integration to maven central (for free)"
 slug: continuous-integration-to-maven-central
+aliases: ["/post/continuous_integration_to_maven_central/"]
 description: "If you, like me, have some small open source projects or libraries, that you want to release to maven central, and you do not want to host your own CI environment, then this blog post might help. I mostly wrote it for myself (to remember) but I am sure it"
 thumb: site/mavencentral_logo.jpg
 date: 2017-09-09

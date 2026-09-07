@@ -1,6 +1,7 @@
 ---
 title: "It's cold in the shade"
 slug: it-cold-in-shade
+aliases: ["/post/it_cold_in_shade/"]
 description: "For the morning of day two I spent most of my time in the Open Lab. This is a room with PC’s already setup to “play” with certain tools / technologies. You can help yourself to mini courses and there are people around to answers questions and assist"
 thumb: site/ibmconnect_logo.png
 date: 2016-02-23

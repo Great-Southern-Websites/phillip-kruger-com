@@ -1,6 +1,7 @@
 ---
 title: "The boundary of mankind"
 slug: the-boundary-of-mankind
+aliases: ["/post/the_boundary_of_mankind/"]
 description: "So it might not be the official definition of Singularity University, but in my head it’s a showcase of where we are as humans. The boundary of mankind. And it’s mind blowing!"
 thumb: site/singularityu_logo.png
 date: 2017-09-18

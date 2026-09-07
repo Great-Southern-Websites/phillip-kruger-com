@@ -1,6 +1,7 @@
 ---
 title: "Angry Duke"
 slug: angry-duke
+aliases: ["/post/angry_duke/"]
 description: "Last day of the conference. Photos are from the Java Community Keynote"
 thumb: site/javaone_logo.jpg
 date: 2015-10-30

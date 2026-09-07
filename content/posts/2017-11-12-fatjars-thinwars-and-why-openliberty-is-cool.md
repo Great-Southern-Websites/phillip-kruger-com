@@ -1,6 +1,7 @@
 ---
 title: "Fatjars, Thinwars and why OpenLiberty is cool"
 slug: fatjars-thinwars-and-why-openliberty-is-cool
+aliases: ["/post/fatjars_thinwars_and_why_openliberty_is_cool/"]
 description: "Fatjars"
 thumb: site/openliberty.jpg
 date: 2017-11-12

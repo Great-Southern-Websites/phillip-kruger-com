@@ -1,6 +1,7 @@
 ---
 title: "Stylish API"
 slug: stylish-api
+aliases: ["/post/Stylish-API/"]
 description: "In this blog post we are going to look at the new styling and other new options available in OpenAPI and SwaggerUI Quarkus (v1.10.0 +)"
 thumb: site/quarkus.png
 date: 2020-11-04

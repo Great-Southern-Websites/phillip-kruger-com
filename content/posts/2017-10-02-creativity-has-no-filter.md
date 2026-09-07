@@ -1,6 +1,7 @@
 ---
 title: "Creativity has no filter"
 slug: creativity-has-no-filter
+aliases: ["/post/creativity_has_no_filter/"]
 description: "Baking a Java EE 8 Micro Pi"
 thumb: site/javaone_logo.jpg
 date: 2017-10-02

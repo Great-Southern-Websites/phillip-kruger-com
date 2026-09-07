@@ -1,6 +1,7 @@
 ---
 title: "Swagger UI on MicroProfile OpenAPI"
 slug: microprofile-openapi-swaggerui
+aliases: ["/post/microprofile_openapi_swaggerui/"]
 description: "MicroProfile OpenApi gives us a standardized way to describe our JAX-RS API’s using OpenApi 3. If you have used swagger-jaxrs and swagger-annotations before, this will feel very familiar to you as OpenApi is built on the Swagger base"
 thumb: site/microprofile.jpg
 date: 2018-08-23

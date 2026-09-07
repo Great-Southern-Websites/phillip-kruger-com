@@ -1,6 +1,7 @@
 ---
 title: "Some bash functions for git"
 slug: some-bash-functions-for-git
+aliases: ["/post/some_bash_functions_for_git/"]
 description: "Here some git related functions in my .bachrc. Is mostly a backup for me, but it might also be useful for someone else"
 thumb: site/bash_git_git.png
 date: 2019-01-22

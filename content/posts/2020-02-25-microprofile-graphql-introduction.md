@@ -1,6 +1,7 @@
 ---
 title: "MicroProfile GraphQL introduction"
 slug: microprofile-graphql-introduction
+aliases: ["/post/microprofile_graphql_introduction/"]
 description: "MicroProfile GraphQL has just released it’s first version (1.0). In this blog post we will explore some of the functionalities available in this release"
 thumb: site/microprofile.jpg
 date: 2020-02-25

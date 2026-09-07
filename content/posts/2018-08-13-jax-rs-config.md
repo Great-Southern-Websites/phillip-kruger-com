@@ -1,6 +1,7 @@
 ---
 title: "A configurable JAX-RS ExceptionMapper with MicroProfile Config"
 slug: jax-rs-config
+aliases: ["/post/jax-rs_config/"]
 description: "When you create REST services with JAX-RS, you typically either return nothing (so HTTP 201/2/4 etc) or some data, potentially in JSON format (so HTTP 200), or some Exception / Error (so HTTP 4xx or 5xx)"
 thumb: site/microprofile.jpg
 date: 2018-08-13

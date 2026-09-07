@@ -1,6 +1,7 @@
 ---
 title: "Experimental GraphQL"
 slug: experimental-graphql
+aliases: ["/post/experimental_graphql/"]
 description: "This blog post is a follow up on the initial introductory post, Supersonic Subatomic GraphQL, and here we will explore more features, some that is experimental, that we hope to eventually move to the MicroProfile GraphQL Specification (based on your feedback !)"
 thumb: site/quarkus.png
 date: 2020-10-27

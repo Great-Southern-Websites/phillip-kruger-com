@@ -1,6 +1,7 @@
 ---
 title: "Some factory examples"
 slug: some-factory-examples
+aliases: ["/post/some_factory_examples/"]
 description: "Every now and then I find myself scratching through some of my old code to find that example “where I did that factory like thing”"
 date: 2017-12-13
 tags: ["Java EE", "OpenLiberty", "Payara Micro", "Wildfly Swarm", "CDI", "EJB", "SPI"]

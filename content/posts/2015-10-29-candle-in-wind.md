@@ -1,6 +1,7 @@
 ---
 title: "Candle in the wind"
 slug: candle-in-wind
+aliases: ["/post/candle_in_wind/"]
 description: "Some photos from the Oracle appreciation event. There was a guy there going on about some candle in the wind? That does not sound sustainable, but anyway…"
 thumb: site/javaone_logo.jpg
 date: 2015-10-29

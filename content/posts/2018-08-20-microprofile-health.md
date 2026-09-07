@@ -1,6 +1,7 @@
 ---
 title: "Reusable MicroProfile Health probes"
 slug: microprofile-health
+aliases: ["/post/microprofile_health/"]
 description: "MicroProfile Health API is a very basic API to report the state of your service, based on one or more Health Probe. It’s very useful in scenarios where some Server or Cluster Controller need to decide if and when your instance should be restarted"
 thumb: site/microprofile.jpg
 date: 2018-08-20

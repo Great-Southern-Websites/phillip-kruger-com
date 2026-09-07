@@ -1,6 +1,7 @@
 ---
 title: "Live for the code"
 slug: live-for-the-code
+aliases: ["/post/live_for_the_code/"]
 description: "Meet Apache Netbeans"
 thumb: site/javaone_logo.jpg
 date: 2017-10-01

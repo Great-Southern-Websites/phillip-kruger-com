@@ -1,6 +1,7 @@
 ---
 title: "GraphQL on Wildfly swarm"
 slug: graphql-on-wildfly-swarm
+aliases: ["/post/graphql_on_wildfly_swarm/"]
 description: "“GraphQL is a query language for APIs and a runtime for fulfilling those queries with your existing data. GraphQL provides a complete and understandable description of the data in your API, gives clients the power to ask for exactly what they need and nothing more, makes it easier to evolve"
 thumb: site/graphql.png
 date: 2018-05-15

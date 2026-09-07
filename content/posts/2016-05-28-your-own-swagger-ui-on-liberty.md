@@ -1,6 +1,7 @@
 ---
 title: "Your own Swagger UI on Liberty"
 slug: your-own-swagger-ui-on-liberty
+aliases: ["/post/your_own_swagger_ui_on_liberty/"]
 description: "IBM Websphere Liberty comes with great out of the box support for Swagger, including their own branded Swagger UI. You might, however, want to create your own branded UI. (If you are not using Liberty, check out Apiee for other options)"
 thumb: site/ibmliberty_logo.png
 date: 2016-05-28

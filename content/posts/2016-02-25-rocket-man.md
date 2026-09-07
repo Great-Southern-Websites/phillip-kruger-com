@@ -1,6 +1,7 @@
 ---
 title: "Rocket man"
 slug: rocket-man
+aliases: ["/post/rocket_man/"]
 description: "The 4th day of the conference was a short one, as the Elton John concert started at 6, all the sessions ended at 5:30ish"
 thumb: site/ibmconnect_logo.png
 date: 2016-02-25

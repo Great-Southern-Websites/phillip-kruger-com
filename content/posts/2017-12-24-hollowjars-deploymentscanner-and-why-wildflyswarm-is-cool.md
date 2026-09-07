@@ -1,6 +1,7 @@
 ---
 title: "Hollowjars, Deployment scanner and why Wildfly swarm is cool"
 slug: hollowjars-deploymentscanner-and-why-wildflyswarm-is-cool
+aliases: ["/post/hollowjars_deploymentscanner_and_why_wildflyswarm_is_cool/"]
 description: "In a previous post I described how you can use OpenLiberty and maven to start the server, either as a standalone, or as part of the maven build, and how to create a fatjar package"
 thumb: site/wildfly_swarm.png
 date: 2017-12-24

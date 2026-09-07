@@ -1,6 +1,7 @@
 ---
 title: "Cultivate greatness"
 slug: cultivate-greatness
+aliases: ["/post/cultivate_greatness/"]
 description: "Demystifying Microservices for Java EE Developers"
 thumb: site/javaone_logo.jpg
 date: 2017-10-03

@@ -1,6 +1,7 @@
 ---
 title: "Proposed namespace for Jakarta EE"
 slug: proposed-namespace-jakarta-ee
+aliases: ["/post/proposed_namespace_jakarta_ee/"]
 description: "Disclaimer: This is my personal opinion and does not represent the view of my employer"
 thumb: site/jakartaee.jpg
 date: 2019-09-23

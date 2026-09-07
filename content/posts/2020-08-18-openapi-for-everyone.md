@@ -1,6 +1,7 @@
 ---
 title: "MicroProfile OpenAPI for everyone"
 slug: openapi-for-everyone
+aliases: ["/post/openapi_for_everyone/"]
 description: "MicroProfile OpenAPI is primarily used for adding OpenAPI to JAX-RS Endpoints. In this blog post we will look at how the SmallRye Implementation extends this with some extra features, and support for more web frameworks, when used in Quarkus"
 thumb: site/quarkus.png
 date: 2020-08-18

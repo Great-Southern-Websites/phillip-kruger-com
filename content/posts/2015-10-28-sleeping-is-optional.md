@@ -1,6 +1,7 @@
 ---
 title: "Sleeping is optional"
 slug: sleeping-is-optional
+aliases: ["/post/sleeping_is_optional/"]
 description: "For the non technical readers, scroll to the pictures for some other interesting info"
 thumb: site/javaone_logo.jpg
 date: 2015-10-28

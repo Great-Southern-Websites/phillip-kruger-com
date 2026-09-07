@@ -1,6 +1,7 @@
 ---
 title: "Coffee included"
 slug: coffee-included
+aliases: ["/post/coffee_included/"]
 description: "Our day started with a free coffee from Duke’s Cafe:"
 thumb: site/javaone_logo.jpg
 date: 2015-10-27
