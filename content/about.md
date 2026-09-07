@@ -78,6 +78,7 @@ I enjoy talking and debating about technical concerns. I blog about technical to
 
 - 1 June 2026: [Using Coding Agents with Quarkus](https://quarkus.io/blog/quarkus-insights-249-coding-agents/) at [Quarkus Insights](https://www.youtube.com/channel/UCaW8QG_QoIk_FnjLgr5eOqg), online ([video](https://youtube.com/live/EczihvU1gG8)).
 - February 2026: [Quarkus AI and Chappie](https://www.meetup.com/jozi-jug/events/312880317/) at [JoziJUG](https://www.meetup.com/jozi-jug/).
+- Q4 2025: [AI Assisted Development with Quarkus Dev MCP](https://www.youtube.com/live/pm8NRSFTXck) at [Quarkus Insights](https://www.youtube.com/channel/UCaW8QG_QoIk_FnjLgr5eOqg), online.
 - December 2025: [Quarkus AI and Chappie](https://www.meetup.com/brisjvm/events/312295246/) at [BrisJVM](https://www.meetup.com/brisjvm/) in Brisbane, Australia.
 - December 2025: [Quarkus AI](https://yowcon.com/melbourne-2025) at YOW! Melbourne in Melbourne, Australia.
 - November 2025: [Quarkus AI](https://www.ibm.com/events/reg/flow/ibm/9WI83JMB/landing/page/landing) at IBM TechX Auckland in Auckland, New Zealand.
@@ -88,7 +89,11 @@ I enjoy talking and debating about technical concerns. I blog about technical to
 - December 2024: [GraphQL in Quarkus](https://jakartaone.org/2024/) at JakartaOne Live.
 - November 2024: [AI in Quarkus (Chappie)](https://www.meetup.com/melbourne-openshift-meetup/events/303343989/) at the [Melbourne OpenShift Meetup](https://www.meetup.com/melbourne-openshift-meetup/) in Melbourne, Australia.
 - November 2024: [Web development in Quarkus](https://www.meetup.com/melbourne-java-jvm-users-group/events/304285862/) at the [Melbourne Java and JVM Users Group](https://www.meetup.com/melbourne-java-jvm-users-group/) in Melbourne, Australia.
+- Q3 2024: [Developer Experience Improvements (including Chappie)](https://www.youtube.com/watch?v=1PJNbX8eWG0) at [Quarkus Insights](https://www.youtube.com/channel/UCaW8QG_QoIk_FnjLgr5eOqg), online.
 - May 2024: [Web development in Quarkus](https://makeit.si/jcon/) at JCon Slovenia.
+- Q3 2023: [Quarkus Web Bundler](https://www.youtube.com/live/nnu1k3WKtaM) at [Quarkus Insights](https://www.youtube.com/channel/UCaW8QG_QoIk_FnjLgr5eOqg), online.
+- Q3 2023: [The Quarkus Frontend Rainbow](https://www.youtube.com/live/C9JDsIrcTWI) at [Quarkus Insights](https://www.youtube.com/channel/UCaW8QG_QoIk_FnjLgr5eOqg), online.
+- Q2 2023: [Quarkus Dev UI](https://www.youtube.com/watch?v=EFQRSlAiz3k) at [Quarkus Insights](https://www.youtube.com/channel/UCaW8QG_QoIk_FnjLgr5eOqg), online.
 - March 2023: [Intro to Quarkus](https://www.meetup.com/the-brisbane-java-meetup-group-w-paxus/) at the Brisbane Java Meetup Group in Brisbane, Australia.
 - 22 June 2022: [Intro to Quarkus](https://www.meetup.com/melbourne-java-jvm-users-group/events/286328938/) at the [Melbourne Java and JVM Users Group](https://www.meetup.com/melbourne-java-jvm-users-group/) in Melbourne, Australia.
 - 7 June 2022: [Writing Queryable APIs with GraphQL](https://jnation.pt/quarkus-day/) at [JNation 2022](https://jnation.pt/) in Portugal.
