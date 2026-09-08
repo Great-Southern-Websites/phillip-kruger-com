@@ -1,0 +1,21 @@
+{! The blog comments plugin from Great Southern Websites. Put in place by the elf; the post layout includes it with
+   {#include partials/comments /} after the post body. Moderation and notifications are the owner's settings, not here.
+   Do not edit. !}
+{@io.quarkiverse.roq.frontmatter.runtime.model.Page page}
+{#bundle key="comments" tag="script" /}
+<style>{|
+.gsw-comments { margin-top: 2.5rem; padding-top: 1.5rem; border-top: 1px solid var(--line); }
+.gsw-comment { padding: 0.9rem 0; border-bottom: 1px solid var(--line); }
+.gsw-comment-meta { margin: 0 0 0.3rem; }
+.gsw-comment-meta time { color: var(--fg-muted); margin-left: 0.5rem; font-size: 0.9em; }
+.gsw-comment-text { margin: 0; white-space: pre-wrap; }
+.gsw-comment-form { max-width: 40rem; margin-top: 1.5rem; }
+.gsw-comment-field label { display: block; font-weight: 600; margin-bottom: 0.3rem; }
+.gsw-comment-form input, .gsw-comment-form textarea { width: 100%; box-sizing: border-box; min-height: 2.9rem; padding: 0.7rem 0.9rem; border: 1px solid var(--line); border-radius: 10px; background: var(--bg-card); color: var(--fg); font: inherit; }
+.gsw-comment-form input:focus-visible, .gsw-comment-form textarea:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+.gsw-comments-trap { position: absolute; left: -10000px; top: auto; width: 1px; height: 1px; overflow: hidden; }
+.gsw-comments-error { color: #B42318; font-weight: 600; }
+.gsw-comments-note { color: var(--fg-muted); }
+.gsw-comments-sent { padding: 1rem 1.2rem; border-radius: var(--radius); background: var(--bg-alt); font-weight: 600; }
+|}</style>
+<gsw-comments site="phillip-kruger-com" api="https://www.greatsouthern.website" post="{=page.id}"></gsw-comments>

@@ -30,6 +30,7 @@ layout: default
     </nav>
     {/if}
     {#insert /}
+    {#include partials/comments /}
     <hr>
     <nav class="post-nav" aria-label="More posts">
       {#if page.next}<a class="post-nav-link" href="{=page.next.url}"><span class="muted">Newer</span><br>{=page.next.title}</a>{/if}
