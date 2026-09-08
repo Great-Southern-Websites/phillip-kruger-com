@@ -47,6 +47,17 @@
             <artifactId>quarkus-roq-plugin-aliases</artifactId>
             <version>${quarkus-roq.version}</version>
         </dependency>
+        <dependency>
+            <groupId>io.quarkiverse.roq</groupId>
+            <artifactId>quarkus-roq-plugin-toc</artifactId>
+            <version>${quarkus-roq.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.mvnpm</groupId>
+            <artifactId>highlight.js</artifactId>
+            <version>11.12.0</version>
+            <scope>provided</scope>
+        </dependency>
 </dependencies>
     <build>
         <plugins>

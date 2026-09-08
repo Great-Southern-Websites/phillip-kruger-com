@@ -20,6 +20,13 @@
   --link: #2C6BA3;
   --code-bg: #F5F5F5;
   --code-fg: #1A1A1A;
+  --hl-comment: #6A737D;
+  --hl-keyword: #A626A4;
+  --hl-string: #1B7F3B;
+  --hl-number: #B35C00;
+  --hl-title: #1F5FBF;
+  --hl-attr: #8A4B00;
+  --hl-meta: #6A737D;
 
   --font-display: "Lora", Georgia, "Times New Roman", serif;
   --font-body: "Open Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
@@ -46,6 +53,13 @@
   --link: #7FBBF2;
   --code-bg: #1B1B1B;
   --code-fg: #E6E6E6;
+  --hl-comment: #8B949E;
+  --hl-keyword: #D2A8FF;
+  --hl-string: #7EE787;
+  --hl-number: #FFA657;
+  --hl-title: #79C0FF;
+  --hl-attr: #FFA657;
+  --hl-meta: #8B949E;
 }
 }
 :root[data-theme="dark"] {
@@ -65,6 +79,13 @@
   --link: #7FBBF2;
   --code-bg: #1B1B1B;
   --code-fg: #E6E6E6;
+  --hl-comment: #8B949E;
+  --hl-keyword: #D2A8FF;
+  --hl-string: #7EE787;
+  --hl-number: #FFA657;
+  --hl-title: #79C0FF;
+  --hl-attr: #FFA657;
+  --hl-meta: #8B949E;
 }
 
 /* ---- base ---------------------------------------------------------------- */
@@ -262,3 +283,25 @@ p { margin: 0 0 1rem; }
 :root[data-theme="dark"] .theme-toggle .icon-sun { display: block; }
 :root[data-theme="dark"] .theme-toggle .icon-moon { display: none; }
 [hidden] { display: none !important; }
+
+/* Code blocks and syntax colouring (classes from highlight.js, colours from the tokens above). */
+.prose pre code { background: none; border: 0; padding: 0; font-size: inherit; }
+.hljs { background: transparent; color: var(--code-fg); }
+.hljs-comment, .hljs-quote { color: var(--hl-comment); font-style: italic; }
+.hljs-keyword, .hljs-selector-tag, .hljs-literal, .hljs-doctag, .hljs-name { color: var(--hl-keyword); }
+.hljs-string, .hljs-regexp, .hljs-addition, .hljs-template-tag { color: var(--hl-string); }
+.hljs-number, .hljs-symbol, .hljs-bullet, .hljs-link, .hljs-deletion { color: var(--hl-number); }
+.hljs-title, .hljs-section, .hljs-type, .hljs-built_in, .hljs-class .hljs-title, .hljs-function .hljs-title { color: var(--hl-title); }
+.hljs-attr, .hljs-attribute, .hljs-variable, .hljs-template-variable, .hljs-selector-attr, .hljs-selector-id, .hljs-selector-class { color: var(--hl-attr); }
+.hljs-meta, .hljs-meta .hljs-keyword, .hljs-subst { color: var(--hl-meta); }
+.hljs-emphasis { font-style: italic; }
+.hljs-strong { font-weight: 700; }
+
+/* Table of contents on long posts (nav.roq-toc comes from the TOC plugin). */
+.toc { border: 1px solid var(--line); border-radius: var(--radius); background: var(--bg-alt); padding: 0.9rem 1.1rem; margin: 0 0 1.5rem; font-size: 0.95rem; }
+.toc-title { margin: 0 0 0.4rem; font-weight: 600; color: var(--fg-muted); font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.04em; }
+.toc ul { list-style: none; margin: 0; padding: 0; }
+.toc ul ul { padding-left: 1rem; }
+.toc li { margin: 0.2rem 0; }
+.toc a { text-decoration: none; }
+.toc a:hover { text-decoration: underline; }
