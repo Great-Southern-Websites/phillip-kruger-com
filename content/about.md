@@ -10,7 +10,7 @@ Hey, I'm Phillip. I'm a Software Engineer living in [Victoria, Australia](https:
 
 I work for [Red Hat](https://www.redhat.com) on the [Quarkus](https://quarkus.io/) team, where I spend most of my time on developer tooling: the [Dev UI](https://quarkus.io/guides/dev-ui), [Chappie](https://github.com/quarkiverse/quarkus-chappie), [Dev MCP](https://quarkus.io/guides/dev-mcp) and the [Quarkus Agent MCP](https://github.com/quarkusio/quarkus-agent-mcp). I also work on [MicroProfile](https://microprofile.io/) and [SmallRye](https://smallrye.io/).
 
-I am a fan of technology, coffee and programming. I love dogs and music. To keep active I play [squash](https://en.wikipedia.org/wiki/Squash_(sport)). I was lucky enough to marry my best friend, Charmaine. She is also a geek.
+I am a fan of technology, coffee and programming. I love dogs and music. I was lucky enough to marry my best friend, Charmaine. She is also a geek.
 
 <img src="{=site.url('images/family.jpg')}" alt="Phillip, Charmaine and their daughter" width="853" height="607">
 
