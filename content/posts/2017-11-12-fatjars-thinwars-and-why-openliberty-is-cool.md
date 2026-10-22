@@ -120,7 +120,7 @@ So when we do a `mvn clean install` the `server.xml` will be copied to the targe
 
 I am using [maven profiles](http://maven.apache.org/guides/introduction/introduction-to-profiles.html) to allow me to select, at build time, which deployment option I want:
 
-In the `<build>` of [pom.xml]((https://github.com/phillip-kruger/quote-service/blob/master/pom.xml))
+In the `<build>` of [pom.xml](https://github.com/phillip-kruger/quote-service/blob/master/pom.xml)
 
 ```xml
 {|<plugins>

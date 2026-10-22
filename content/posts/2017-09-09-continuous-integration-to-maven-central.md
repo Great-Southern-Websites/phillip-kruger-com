@@ -542,7 +542,7 @@ This should do it. If you commit and push your code that contains your new `.mav
 
 Lastly, if you want to get a slack message on a build you can simply sign up for a slack account at [https://slack.com/](https://slack.com/)
 
-*“Free for small teams wanting to try out Slack for an unlimited period of time.”*: [https:/www.slack.com/pricing](https:/www.slack.com/pricing)
+*“Free for small teams wanting to try out Slack for an unlimited period of time.”*: [https://www.slack.com/pricing](https://www.slack.com/pricing)
 
 After your setup you can create a channel for build notifications. I called mine #travis.
 

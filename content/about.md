@@ -10,7 +10,7 @@ Hey, I'm Phillip. I'm a Software Engineer living in [Victoria, Australia](https:
 
 I work for [Red Hat](https://www.redhat.com) on the [Quarkus](https://quarkus.io/) team, where I spend most of my time on developer tooling: the [Dev UI](https://quarkus.io/guides/dev-ui), [Chappie](https://github.com/quarkiverse/quarkus-chappie), [Dev MCP](https://quarkus.io/guides/dev-mcp) and the [Quarkus Agent MCP](https://github.com/quarkusio/quarkus-agent-mcp). I also work on [MicroProfile](https://microprofile.io/) and [SmallRye](https://smallrye.io/).
 
-I am a fan of technology, coffee and programming. I love dogs and [music](https://www.last.fm/user/phillipkruger). To keep active I play [squash](https://en.wikipedia.org/wiki/Squash_(sport)). I was lucky enough to marry my best friend, [Charmaine](https://www.charmaine-kruger.com). She is also a geek.
+I am a fan of technology, coffee and programming. I love dogs and music. To keep active I play [squash](https://en.wikipedia.org/wiki/Squash_(sport)). I was lucky enough to marry my best friend, Charmaine. She is also a geek.
 
 <img src="{=site.url('images/family.jpg')}" alt="Phillip, Charmaine and their daughter" width="853" height="607">
 
@@ -96,24 +96,24 @@ I enjoy talking and debating about technical concerns. I blog about technical to
 - Q2 2023: [Quarkus Dev UI](https://www.youtube.com/watch?v=EFQRSlAiz3k) at [Quarkus Insights](https://www.youtube.com/channel/UCaW8QG_QoIk_FnjLgr5eOqg), online.
 - March 2023: [Intro to Quarkus](https://www.meetup.com/the-brisbane-java-meetup-group-w-paxus/) at the Brisbane Java Meetup Group in Brisbane, Australia.
 - 22 June 2022: [Intro to Quarkus](https://www.meetup.com/melbourne-java-jvm-users-group/events/286328938/) at the [Melbourne Java and JVM Users Group](https://www.meetup.com/melbourne-java-jvm-users-group/) in Melbourne, Australia.
-- 7 June 2022: [Writing Queryable APIs with GraphQL](https://jnation.pt/quarkus-day/) at [JNation 2022](https://jnation.pt/) in Portugal.
+- 7 June 2022: Writing Queryable APIs with GraphQL at [JNation 2022](https://jnation.pt/) in Portugal.
 - 25 October 2021: [Micro frontends using WebComponents and MicroProfile GraphQL](https://www.eclipsecon.org/2021/sessions/micro-frontends-using-webcomponents-and-microprofile-graphql) at [EclipseCon 2021](https://www.eclipsecon.org/2021) ([video](https://youtu.be/3qTJuqsqzq8)).
-- 12 October 2021: [Micro frontends using WebComponents and MicroProfile GraphQL](https://www.eclipsecon.org/2021/sessions/micro-frontends-using-webcomponents-and-microprofile-graphql) at [Java Africa 2021](https://j-sa.co/).
+- 12 October 2021: [Micro frontends using WebComponents and MicroProfile GraphQL](https://www.eclipsecon.org/2021/sessions/micro-frontends-using-webcomponents-and-microprofile-graphql) at Java Africa 2021.
 - 2 September 2021: [Writing queryable APIs with MicroProfile GraphQL](https://devconfus2021.sched.com/event/lkfd/writing-queryable-apis-with-microprofile-graphql) at [DevConf.US 2021](https://www.devconf.info/us/) ([video](https://youtu.be/y9vVj9lUvQw), [code](https://github.com/phillip-kruger/graphql-example) and [more code](https://github.com/phillip-kruger/graphql-experimental)).
 - 5 May 2021: [Writing queryable APIs with MicroProfile GraphQL](https://www.conf42.com/Enterprise_Software_2021_Phillip_Krger_queryable_apis_microprofile_graphql) at [Conf42 Enterprise 2021](https://www.conf42.com/enterprise2021) ([video](https://youtu.be/UnWnSYiGtTE), [code](https://github.com/phillip-kruger/graphql-example) and [more code](https://github.com/phillip-kruger/graphql-experimental)).
 - 1 March 2021: [MicroProfile OpenAPI](https://youtu.be/8JsnjHQM36k) at [Quarkus Insights](https://www.youtube.com/channel/UCaW8QG_QoIk_FnjLgr5eOqg), online.
-- 1 August 2020: [Building queryable APIs with MicroProfile GraphQL](https://java.geekle.us/#speaker-15) at [Global Summit for Java devs '20](https://java.geekle.us) ([video](https://youtu.be/vDvSXdtuAk0)).
+- 1 August 2020: Building queryable APIs with MicroProfile GraphQL at Global Summit for Java devs '20 ([video](https://youtu.be/vDvSXdtuAk0)).
 - 29 June 2020: [Wonders of GraphQL](https://www.youtube.com/watch?v=nMti8-zIDQs) at [Quarkus Insights](https://www.youtube.com/channel/UCaW8QG_QoIk_FnjLgr5eOqg), online.
 - 27 April 2020: [Building queryable APIs with MicroProfile GraphQL](https://www.meetup.com/Jozi-JUG/events/270175167) at [JoziJUG](https://www.meetup.com/Jozi-JUG/), online ([slides](https://bit.ly/mp-graphql-presentation-jozijug), [video](https://youtu.be/UqDdDYo-g-8), [code](https://github.com/phillip-kruger/graphql-example)).
 - 21 April 2020: [Building queryable APIs with MicroProfile GraphQL](https://www.meetup.com/SouJava/events/269608279/) at [SouJava](https://www.meetup.com/SouJava/), online ([slides](http://bit.ly/mp-graphql-presentation-soujava), [video](https://youtu.be/OOnpUeblVPM), [code](https://github.com/phillip-kruger/graphql-example)).
 - 25 January 2020: [Writing better APIs with MicroProfile GraphQL](https://devconfcz2020a.sched.com/event/YOmv/writing-better-apis-with-microprofile-graphql) at [DevConf.CZ](https://www.devconf.info/cz/) in Brno, Czech Republic ([slides](http://bit.ly/mp-graphql-presentation-2020), [video](https://www.youtube.com/watch?v=lA0L7iB-GV8), [code](https://github.com/phillip-kruger/graphql-example)).
-- 28 November 2019: [Quarkus on OpenShift and Azure Functions](https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x8561667abcd) with [Saurabh Agrawal](https://twitter.com/saurabhcode) at the Microsoft Open Cloud Summit in Johannesburg, South Africa ([slides](https://docs.google.com/presentation/d/1uLwFOLSJon1tmuwcsDhEw6ZGVWbn-E_XjzTmBTBFix0/edit?usp=sharing)).
+- 28 November 2019: Quarkus on OpenShift and Azure Functions with [Saurabh Agrawal](https://twitter.com/saurabhcode) at the Microsoft Open Cloud Summit in Johannesburg, South Africa ([slides](https://docs.google.com/presentation/d/1uLwFOLSJon1tmuwcsDhEw6ZGVWbn-E_XjzTmBTBFix0/edit?usp=sharing)).
 - 16 September 2019: [Jakarta EE, a quick overview](https://events.rainfocus.com/widget/oracle/oow19/catalogcodeone19?search.codeonetracks=15560568230440096ZiK) at [Oracle Code One](https://www.oracle.com/code-one/) in San Francisco, USA ([slides](http://bit.ly/jakartaee-slides), [video](https://www.youtube.com/watch?v=FL0JNVK2Ig8), [code](https://github.com/phillip-kruger/jello)).
-- 25 July 2019: [Writing better APIs with MicroProfile GraphQL](http://j-sa.co/schedule-java/) at the [Java Cloud Conference](http://j-sa.co) in Johannesburg, South Africa ([slides](http://bit.ly/mp-graphql-presentation), [code](http://bit.ly/mp-graphql-example)).
-- 24 July 2019: [Implementing Microservices with Eclipse MicroProfile](http://j-sa.co/schedule-java/) with [Ivar Grimstad](https://twitter.com/ivar_grimstad) at the [Java Cloud Conference](http://j-sa.co) in Johannesburg, South Africa.
+- 25 July 2019: Writing better APIs with MicroProfile GraphQL at the Java Cloud Conference in Johannesburg, South Africa ([slides](http://bit.ly/mp-graphql-presentation), [code](http://bit.ly/mp-graphql-example)).
+- 24 July 2019: Implementing Microservices with Eclipse MicroProfile with [Ivar Grimstad](https://twitter.com/ivar_grimstad) at the Java Cloud Conference in Johannesburg, South Africa.
 - 26 March 2019: [Modern application services with OpenShift](https://www.devconf.co.za/#profile-PhillipKruger2019cpt) at [DevConf](https://www.devconf.co.za/) in Cape Town, South Africa.
 - 17 September 2018: [Distributed services with MicroProfile](https://www.meetup.com/Jozi-JUG/events/253979187/) at the [Jozi-JUG](https://www.meetup.com/Jozi-JUG/) in Sandton, South Africa.
-- 12 July 2018: [Keynote: Distributed services with MicroProfile](http://j-sa.co/archived/2018/) at the [Java Cloud Conference](http://j-sa.co) in Johannesburg, South Africa ([slides](http://bit.ly/mp-presentation), [video](http://bit.ly/mp-youtube-video), [code](http://bit.ly/mp-sourcecode)).
+- 12 July 2018: Keynote: Distributed services with MicroProfile at the Java Cloud Conference in Johannesburg, South Africa ([slides](http://bit.ly/mp-presentation), [video](http://bit.ly/mp-youtube-video), [code](http://bit.ly/mp-sourcecode)).
 - 16 May 2018: [Writing better APIs with GraphQL](https://www.meetup.com/DeveloperUG/events/kvpqnpyxhbvb) at the [Developer User Group](https://www.meetup.com/DeveloperUG/) in Pretoria, South Africa ([slides](http://bit.ly/gql-presentation), [code](http://bit.ly/gql-sourcecode)).
 
 #### Published blog articles
@@ -132,11 +132,11 @@ Some of my posts were also published on [Quarkus.io](https://quarkus.io/blog/), 
 - [Hollowjars, Deployment scanner and why Wildfly swarm is cool](https://www.javacodegeeks.com/2018/01/hollowjars-deployment-scanner-wildfly-swarm-cool.html)
 - [Fatjars, Thinwars and why OpenLiberty is cool](https://www.javacodegeeks.com/2017/12/fatjars-thinwars-openliberty-cool.html)
 - [Some factory examples](https://www.javacodegeeks.com/2017/12/some-factory-examples.html)
-- [Continuous integration to Maven Central](https://dzone.com/articles/continuous-integration-to-maven-central-for-free)
+- Continuous integration to Maven Central
 - [Apiee: an easy way to get Swagger on Java EE](https://dzone.com/articles/apiee-an-easy-way-to-get-swagger-on-java-ee)
-- [WebSockets example and the birth of Stompee](https://dzone.com/articles/websockets-example-and-the-birth-of-stompee)
+- WebSockets example and the birth of Stompee
 - [Your own Swagger UI on Liberty](https://dzone.com/articles/your-own-swagger-ui-on-liberty)
-- [Monkey methodology](https://dzone.com/articles/monkey-methodology)
+- Monkey methodology
 - [Google might be wrong](https://memeburn.com/2012/11/why-google-might-just-be-wrong-about-responsive-design-in-africa/)
 
 ### Infrastructure
@@ -155,10 +155,10 @@ I have knowledge of many other languages, frameworks and libraries. I believe in
 
 - [DevConf.CZ 2020, Brno, Czech Republic](https://www.devconf.info/cz/)
 - [Oracle Code One 2019, San Francisco, USA](https://www.oracle.com/code-one/)
-- [Java Cloud Conference 2019, Johannesburg, South Africa](http://j-sa.co/)
+- Java Cloud Conference 2019, Johannesburg, South Africa
 - [DevConf ZA 2019, Johannesburg and Cape Town, South Africa](https://www.devconf.co.za/)
 - [JCon 2018, Düsseldorf, Germany](http://jcon.one/en/)
-- [Java Cloud Conference 2018, Johannesburg, South Africa](http://j-sa.co/)
+- Java Cloud Conference 2018, Johannesburg, South Africa
 - [DevConf ZA 2018, Johannesburg, South Africa](https://www.devconf.co.za/)
 - [JavaOne 2017, San Francisco, USA](https://www.oracle.com/javaone/index.html)
 - [SingularityU 2017, Midrand, South Africa](https://singularityusouthafricasummit.org/)
